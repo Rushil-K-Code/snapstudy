@@ -1,0 +1,5 @@
+# Core app has ZERO third-party dependencies (Python 3.9+ stdlib only).
+# Optional, all local:
+# faster-whisper      # audio -> transcript on CPU
+# onnxruntime-qnn     # Snapdragon Hexagon NPU provider (Windows ARM64)
+# qai-hub qai-hub-models[whisper-base-en]   # AI Hub compile/profile
